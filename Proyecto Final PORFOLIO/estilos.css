@@ -1,0 +1,31 @@
+.menu {
+    display: flex;
+    
+}
+.menu li {
+    list-style-type: none;
+    display: inline;
+    padding: 0 20px 0 20px;
+    text-align: right;
+    float: left;
+}
+.menu li a {
+    text-decoration: none;
+    color: black;
+}
+.nombre {
+    display: block;
+    text-align: right;
+    margin-right: 60px;
+    padding-top: 15px;
+    font-family: 'Libre Baskerville', serif;
+    font-size: x-large;
+    letter-spacing: 2px;
+}
+.profesion {
+    display: block;
+    text-align: right;
+    margin-right: 90px;
+    
+}
+
