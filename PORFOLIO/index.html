@@ -19,15 +19,60 @@
   
   <body class="conteiner-fluid">    <!--Contiene toda la pagina-->
 
-    
-
-    <div class="row">    <!--contiene ambas columnas-->
 
       <!--Componente 1-->
-      <div class="col-md-4 bg-light"> <!--Columna iquierda oscura-->
+
+      <nav class="navbar navbar-expand-lg bg-ligth">
+        <div class="container-fluid">
+          <span class="navbar-brand text-info">
+            Daiana Aixa<br> Gil
+          </span>
+        
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="nav ml-auto mb-2 mb-lg-0"> <!--ml-auto tira los items a la derecha-->
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Acerca de mi</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Educación</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  Experiencia
+                </a>
+              </li>  
+            </ul>
+          </div>        
+        </div>
+      </nav>
+
+      <div class="title-one mt-0 p-3">
         <div class="text-center m-4">    <!--contenedor de foto-->
           <img src="Foto-perfil.jpg" class="foto" alt="" />
         </div>
+        <div class="display-1 text-light text-center pl-4">Daiana Aixa Gil</div>
+        <h5 class="text-center pl-3">Developer web</h5>
+
+        <!--  social bar-->
+        <div class="boton-redes mt-4 mb-2">
+          <a
+            href="https://facebook.com/mainani"
+            class="fa-brands fa-facebook"
+          >
+          </a>
+          <a href="#" class="fa-brands fa-linkedin"></a>
+          <a href="https://instagram.com/" class="fa-brands fa-instagram">
+          </a>
+          <a href="#" class="fa-brands fa-github"> </a>
+        </div>
+      </div>
+
+
+      <div class="navbar bg-light"> <!-- Columna iquierda oscura-->
+       
 
         <!--CONTACTO-->
         <div class="contact p-5 text-info">
@@ -65,27 +110,10 @@
       <!-- fin columna izq oscura -->
 
       <!-- SEGUNDA COLUMNA-->
-      <div class="col-md-8 pl-0 pr-0">
+      <div class="pl-0 pr-0">
         <!-- ACA PODRIA IR UNA BARRA DE NAVEGACION-->
 
-        <div class="title-one mt-0 p-3">
-          <div class="display-1 text-light text-center pl-4">Daiana Aixa Gil</div>
-          <h5 class="text-center pl-3">Developer web</h5>
-
-          <!--  social bar-->
-          <div class="boton-redes mt-4 mb-2">
-            <a
-              href="https://facebook.com/mainani"
-              class="fa-brands fa-facebook"
-            >
-            </a>
-            <a href="#" class="fa-brands fa-linkedin"></a>
-            <a href="https://instagram.com/" class="fa-brands fa-instagram">
-            </a>
-            <a href="#" class="fa-brands fa-github"> </a>
-          </div>
-        </div>
-
+        
         <!-- ACERCA DE MI / componente -->
         <div class="descriptions p-5">
           <div class="p-5 text-dark">

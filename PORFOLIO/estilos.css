@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300i,700&display=swap');
+
 
 :root {
 --color-one: #9085ac ;
@@ -9,6 +9,9 @@
 }
 /* color-one pertenece a los h1 color amarillo*/
 
+.nav-one{
+    color:var(--color-one);
+}
 .color-one{
  color: var(--color-one);
 }
@@ -23,6 +26,7 @@
 .title-one{
  background: linear-gradient(90deg, #efd5ff 0%, #515ada 100%);
 }
+
 .title-one div {
  font-size: 3rem;
  font-weight: 400;
