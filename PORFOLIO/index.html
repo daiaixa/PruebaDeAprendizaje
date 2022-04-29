@@ -5,25 +5,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="estilos.css" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
     <!--Boostrap-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <title>Mi Porfolio</title>
   </head>
 
   
-  <body class="conteiner-fluid">    <!--Contiene toda la pagina-->
+  <body class="conteiner">    <!--Contiene toda la pagina-->
 
 
       <!--Componente 1-->
 
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid justify-content-between">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-bottom">
+        <div class="container-fluid">
           <a class="navbar-brand" href="#">Daiana Aixa</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
               <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="#">Sobre mi</a>
               </li>
@@ -42,7 +43,7 @@
       </nav>
 
       <div class="title-one mt-0 p-3">
-        <div class="text-center m-4">    <!--contenedor de foto-->
+        <div class="text-center m-10">    <!--contenedor de foto-->
           <img src="Foto-perfil.jpg" class="foto" alt="" />
         </div>
         <div class="display-1 text-light text-center pl-4">Daiana Aixa Gil</div>
@@ -63,11 +64,10 @@
       </div>
 
 
-      <div class="navbar bg-light"> <!-- Columna iquierda oscura-->
-       
+      <section        class="row"><!--contenedor bajo el header-->
 
         <!--CONTACTO-->
-        <div class="contact p-5 text-info">
+        <div class=" col-3 contact p-5 text-info">
           <h2>CONTACTO</h2>
           <div class="decor">
             <hr />
@@ -97,17 +97,13 @@
           <i class="fa-brands fa-angular"></i>
           <i class="fa-brands fa-bootstrap"></i>
         </div>
-        </div>
       </div>
       <!-- fin columna izq oscura -->
 
       <!-- SEGUNDA COLUMNA-->
-      <div class="pl-0 pr-0">
-        <!-- ACA PODRIA IR UNA BARRA DE NAVEGACION-->
-
-        
+      <div class="col-9">
         <!-- ACERCA DE MI / componente -->
-        <div class="descriptions p-5">
+        <div class="descriptions">
           <div class="p-5 text-dark">
             <h2 class="text-body mb-0">ACERCA DE MI</h2>
             <div class="decor">
@@ -121,7 +117,7 @@
           </div>
 
           <!--EDUCACION / Componente -->
-          <div class="experience m-5">
+          <div class="p-5 text-dark">
             <h2 class="text-body mb-0">EDUCACIÓN</h2>
             <div class="decor">
               <hr />
@@ -184,7 +180,7 @@
           </div>
 
           <!--Nuevo componente-->
-          <div class="experience ml-5 mr-5 mt-3">
+          <div class="p-5 text-dark">
             <h2 class="text-body mb-0">Experiencia:</h2>
             <div class="decor">
               <hr class="decor-two" />
@@ -287,7 +283,7 @@
           </div>
 
           <!--Otro componente -->
-          <div class="experience m-5">
+          <div class="p-5 text-dark">
             <h2 class="text-body mb-0">Componente</h2>
             <div class="decor">
               <hr />
@@ -295,11 +291,11 @@
           </div>
         </div>
       </div>
-      <!-- fin col-8 -->
     </div>
     <!-- fin row -->
 
     <!--Boostrap-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/js/all.min.js"></script>
   </body>
 </html>
